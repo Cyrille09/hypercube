@@ -1,0 +1,37 @@
+@use "../../styles/variables";
+
+.message {
+  text-align: center;
+  color: variables.$danger;
+  background-color: transparent;
+  padding: 8px;
+  width: 100%;
+}
+
+.warningMessage {
+  text-align: center;
+  color: variables.$white;
+  background-color: variables.$warning;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  background-color: variables.$success;
+}
+
+.successMessage {
+  text-align: center;
+  color: variables.$white;
+  background-color: variables.$success;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}
+
+.errorMessage {
+  text-align: center;
+  color: variables.$white;
+  background-color: variables.$danger;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+}

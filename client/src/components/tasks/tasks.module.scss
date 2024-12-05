@@ -1,0 +1,61 @@
+@use "../../styles/variables";
+
+.tasks {
+  padding: 20px 50px;
+}
+.taskForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.taskSave {
+  margin: 20px;
+}
+.upload {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.tasksTable {
+  margin: 50px;
+  table {
+    margin-top: 20px;
+  }
+  th {
+    font-size: 17px;
+  }
+
+  td {
+    font-size: 15px;
+  }
+}
+.select {
+  margin-right: 20px;
+  min-width: 200px;
+}
+.selectButton {
+  margin-right: 20px;
+}
+
+.deleteTask {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colSpan {
+  text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .tasks {
+    margin: 20px 10%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .tasks {
+    margin: 20px 0;
+  }
+}

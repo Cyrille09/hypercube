@@ -1,0 +1,23 @@
+@use "sass:color";
+.row {
+  --bs-gutter-x: 1rem;
+}
+
+// Colors
+$white: #fff;
+$green: #65d36e;
+$yellow: #f5ca99;
+$red: #f23440;
+$lightRed: #fcd6d9;
+$darkRed: #c22a33;
+$black: #161616;
+$gray: #00000066;
+$darkGray: #00000099;
+$lightGray: #0000001a;
+
+// Theme Colors 8bc9d3  1f98f4
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$subtle: $gray;
+$inactive: $lightGray;

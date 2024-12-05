@@ -1,0 +1,33 @@
+@use "../../styles/variables";
+
+.field {
+  margin-bottom: 24px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.error {
+  display: block !important;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: variables.$danger;
+}
+
+.isInvalid,
+.was-validated .form-control:invalid {
+  border-color: variables.$danger;
+}
+
+.invalidFeedback {
+  display: block !important;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: variables.$danger;
+}
